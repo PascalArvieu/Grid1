@@ -1,0 +1,57 @@
+body {
+    font-size: large;
+    }
+   
+.grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 30px;
+     }
+    
+.grid div {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;    
+    color: white;
+}
+
+.item1{
+    background: rgb(175, 53, 50);
+    }
+
+.item2{
+    background: rgb(52, 168, 165);    
+}
+
+.item3{
+    background: rgb(47, 153, 122);
+}
+
+.item4{
+    background: rgb(106, 71, 143);
+}
+
+.item5{
+    background: rgb(217, 112, 42);
+}
+
+.item6{
+    background: rgb(62, 139, 176);
+ }
+
+.item7{
+    background: rgb(224, 63, 63);
+}
+
+.item8{
+    background: rgb(89, 166, 39);
+ }
+
+.item9{
+    background: rgb(68, 100, 160);
+}
+    
+        
